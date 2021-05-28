@@ -17,6 +17,7 @@
   letter-spacing: 3px;
   padding: 10px;
 }
+
 #nav-heading1
 {
   font-family: poppins;
@@ -42,6 +43,7 @@
   font-family: poppins;
   text-transform:capitalize;
   color:#c54786;
+ padding-top:20%;
   line-height: 2%;
   font-weight: bolder;
 }
@@ -51,6 +53,7 @@
   font-family:monospace;
   text-transform:capitalize;
   color:#c54786;
+padding-top:25%;
   line-height: 2%;
   letter-spacing: 2px;
   font-weight: bold;
