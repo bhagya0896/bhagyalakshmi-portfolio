@@ -187,6 +187,8 @@ img{
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
+
 @media screen and (max-width: 1075px)
 {
   #heading
@@ -210,7 +212,7 @@ img{
 }
 .welcome-area h1 {
  
-	font-size:16px;
+	font-size:14px;
 	font-family: poppins;
 	text-transform:capitalize;
 	color:#c54786;
@@ -220,7 +222,7 @@ img{
 }
 .welcome-area h5 {
 
-	font-size:15px;
+	font-size:14px;
 	font-family: poppins;
     text-transform:capitalize;
     letter-spacing: 1px;
