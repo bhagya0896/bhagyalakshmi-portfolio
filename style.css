@@ -28,11 +28,11 @@
 
 .welcome-area {
 	width: 100%;
-	height: 350px;
+	height: 500px;
 	position: fixed;
 	top: 50px;
 	background-image: url(pic1.jpg);
-    -webkit-background-size: cover;
+        -webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
 }
