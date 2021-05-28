@@ -208,7 +208,7 @@ img{
 }
 .welcome-area h1 {
  
-	font-size:16px;
+	font-size:14px;
 	font-family: poppins;
 	text-transform:capitalize;
 	color:#c54786;
@@ -218,7 +218,7 @@ img{
 }
 .welcome-area h5 {
 
-	font-size:15px;
+	font-size:12px;
 	font-family: poppins;
     text-transform:capitalize;
     letter-spacing: 1px;
