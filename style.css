@@ -30,6 +30,10 @@ a:hover
 {
 color:#c54786
 }
+a
+{
+text-decoration:none
+}
 
 .welcome-area {
 	width: 100%;
@@ -238,6 +242,10 @@ color:#c54786
 	font-family: poppins;
     color:#c54786;
     font-weight:bold;
+}
+a
+{
+text-decoration:none
 }
 .aboutdesc
 {
