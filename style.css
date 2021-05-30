@@ -26,6 +26,11 @@
   padding: 10px;
 }
 
+a:hover
+{
+color:#c54786
+}
+
 .welcome-area {
 	width: 100%;
 	height: 500px;
@@ -219,6 +224,10 @@ img{
 	text-align:center;
     line-height: 3%;
 	font-weight: bolder;
+}
+	a:hover
+{
+color:#c54786
 }
 .welcome-area h5 {
 
