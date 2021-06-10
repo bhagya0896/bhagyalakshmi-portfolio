@@ -10,29 +10,19 @@
 
 #nav-heading
 {
-  font-family: poppins;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: #fff;
   font-size: 18px;
-  text-transform: capitalize;
-  letter-spacing: 3px;
+  text-transform: uppercase;
   padding: 10px;
 }
 #nav-heading1
 {
-  font-family: poppins;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: #fff;
   font-size: 18px;
-  letter-spacing: 3px;
+  text-transform: uppercase;
   padding: 10px;
-}
-
-a:hover
-{
-color:#c54786
-}
-a
-{
-text-decoration:none
 }
 
 .welcome-area {
@@ -40,7 +30,7 @@ text-decoration:none
 	height: 500px;
 	position: fixed;
 	top: 50px;
-	background-image: url(pic1.jpg);
+	background-color:white;
     -webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
@@ -50,27 +40,54 @@ text-decoration:none
   font-size: 35px;
   font-family: poppins;
   text-transform:capitalize;
-  color:#c54786;
-  padding-top:22%;
-  line-height: 2%;
-  font-weight: bolder;
+  padding-top: 25%;
+
 }
+.welcome-area .myname {
+  
+	font-size: 40px;
+	font-family: monospace;
+	text-transform:capitalize;
+	color:#c54786;
+	font-weight: bolder;
+
+  }
 .welcome-area h5 {
   
   font-size: 30px;
-  font-family:monospace;
+  font-family:poppins;
   text-transform:capitalize;
-  color:#c54786;
-  padding-top:5%;
-  line-height: 2%;
-  letter-spacing: 2px;
   font-weight: bold;
+}
+.welcome-area button {
+  
+	font-size: 20px;
+	font-family:poppins;
+	text-transform:capitalize;
+	font-weight: bold;
+	
+  }
+  #resume a {
+  
+
+	font-family:poppins;
+	text-transform:capitalize;
+	font-weight: bold;
+
+	
+  }
+.image{
+
+	margin:auto;
+	width:150%;
+	border-radius:50%;
+    align-items: center;
 }
 .section-heading 
 {
 	font-size: 26px;
 	font-family: poppins;
-	text-transform:capitalize;
+	text-transform:uppercase;
 	color:#c54786;
 	font-weight: bolder;
 	letter-spacing: 2px;
@@ -79,37 +96,11 @@ text-decoration:none
 
 .section-subheading
 {
-	font-size: 20px;
-	font-style: italic;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-		
-}
-
-.myname
-{
-	font-size: 22px;
-	font-family: poppins;
-	text-transform:capitalize;
-	color:#c54786;
-	font-weight: bolder;
-	letter-spacing:1px;
-}
-
-.desc
-{
-	font-size: 20px;
-	font-family: monospace;
-	text-transform:capitalize;
-	font-weight: bold;
-}
-
-.desc1
-{
 	font-size: 18px;
-	font-family: 'Times New Roman', Times, serif;
-	text-transform:capitalize;
-	color:#c54786;
-	font-weight:30px;
+	font-weight: 500;
+	font-style: italic;
+	font-family:'Times New Roman', Times, serif;
+		
 }
 
 .aboutdesc
@@ -128,12 +119,9 @@ img{
 	padding:15px;
 	border-radius:50px;
 }
-.image{
-	width:20%;
-    padding: top 0;
-	height:40%;
-    border-radius:50px;
-    align-items: center;
+
+.aboutdesc b{
+	color:#c54786;
 }
 
 .p-heading{
@@ -183,13 +171,31 @@ img{
 
 .portfolio-item{
 	width:350px;
-	height:370px;
+	height:400px;
 	margin:10px;
 	padding:2px;
 	border:none
 }
 
+.contact-heading{
+	font-size: 20px;
+	font-family:'Times New Roman', Times, serif;
+	font-weight:bolder;
+	color:#c54786;
+}
+#about a:hover{
 
+	color:#c54786;
+
+}
+#about h6{
+
+	font-family: 'Times New Roman', Times, serif;
+	font-weight:bolder;
+	text-transform: capitalize;
+	
+
+}
 .copyright
 {
 	font-size:15px;
@@ -199,6 +205,7 @@ img{
 
 
 @media screen and (max-width: 1075px)
+
 {
   #heading
 {
@@ -214,7 +221,7 @@ img{
 	width: 100%;
 	height: 200px;
 	position: fixed;
-	background-image: url(pic1.jpg);
+	background-color:white;
     -webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
@@ -225,28 +232,41 @@ img{
 	font-family: poppins;
 	text-transform:capitalize;
 	color:#c54786;
-	text-align:center;
-    line-height: 3%;
+
+}
+.welcome-area .myname {
+  
+	font-size: 18px;
+	font-family: monospace;
+	text-transform:capitalize;
+	color:#c54786;
 	font-weight: bolder;
 }
-	a:hover
-{
-color:#c54786
-}
+
 .welcome-area h5 {
 
 	font-size:14px;
 	font-family: poppins;
     text-transform:capitalize;
-    letter-spacing: 1px;
-	font-family: poppins;
-    color:#c54786;
     font-weight:bold;
 }
-a
-{
-text-decoration:none
-}
+.welcome-area button {
+  
+	font-size: 12px;
+	font-family:poppins;
+	text-transform:capitalize;
+	font-weight: bold;
+	
+  }
+  #resume a {
+  
+
+	font-family:poppins;
+	text-transform:capitalize;
+	font-weight: bold;
+
+	
+  }
 .aboutdesc
 {
 	font-size: 17px;
@@ -258,30 +278,22 @@ text-decoration:none
 
 }
 .image{
+	margin:auto;
 	width:50%;
-    padding: top 0;
-	height:40%;
-    border-radius:20px 50px;
+    border-radius:50%;
     align-items: center;
 }
 
 .section-heading
 {
 	font-size: 25px;
-	font-family: poppins;
-	text-transform:capitalize;
-	color:#c54786;
-	font-weight: bolder;
+	font-family:'Times New Roman', Times, serif;
 	font-style: italic;
-	letter-spacing: 2px;
-	
+    font-weight: 500;
+		
 }
-.btn-heading{
-	font-size: 7px;
-	font-family: poppins;
-	text-transform:lowercase;
-	text-align:center;
-	
+.aboutdesc b{
+	color:#c54786;
 }
 .section-subheading
 {
@@ -290,7 +302,25 @@ text-decoration:none
 	letter-spacing: 1px;
 	
 }
+contact-heading{
+	font-size: 15px;
+	font-family:'Times New Roman', Times, serif;
+	font-weight:bolder;
+	color:#c54786;
+}
+#about a:hover{
 
+	color:#c54786;
+
+}
+#about h6{
+	
+	font-family: 'Times New Roman', Times, serif;
+	font-weight:bolder;
+	text-transform: capitalize;
+	
+
+}
 .copyright
 {
 	font-size:13px;
