@@ -85,7 +85,7 @@
 }
 .section-heading 
 {
-	font-size: 26px;
+	font-size: 23px;
 	font-family: poppins;
 	text-transform:uppercase;
 	color:#c54786;
@@ -96,10 +96,11 @@
 
 .section-subheading
 {
-	font-size: 18px;
+	font-size: 15px;
 	font-weight: 500;
 	font-style: italic;
 	font-family:'Times New Roman', Times, serif;
+	padding:10%
 		
 }
 
